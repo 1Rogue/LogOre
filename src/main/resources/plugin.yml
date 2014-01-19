@@ -1,0 +1,16 @@
+main: com.rogue.orelog.OreLog
+name: ${project.name}
+prefix: OreLog
+description: Allows for simple tracking of ore mining without spamming the chat
+version: ${project.version}
+author: 1Rogue
+website: https://1rogue.com/
+commands:
+  orelog:
+    description: Information about OreLog
+permissions:
+  orelog.*:
+    default: op
+    children:
+    - orelog.reload
+    - orelog.exempt
