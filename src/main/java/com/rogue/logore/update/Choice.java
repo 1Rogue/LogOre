@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.rogue.orelog.update;
+package com.rogue.logore.update;
 
 /**
  * Provides the updater with the correct update options based on configuration

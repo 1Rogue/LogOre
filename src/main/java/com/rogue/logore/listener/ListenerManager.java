@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.rogue.orelog.listener;
+package com.rogue.logore.listener;
 
-import com.rogue.orelog.LogOre;
-import com.rogue.orelog.listener.listeners.BlockListener;
+import com.rogue.logore.LogOre;
+import com.rogue.logore.listener.listeners.BlockListener;
 import java.util.HashMap;
 import java.util.Map;
 import org.bukkit.event.HandlerList;

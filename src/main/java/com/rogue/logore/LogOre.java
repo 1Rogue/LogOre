@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.rogue.orelog;
+package com.rogue.logore;
 
-import com.rogue.orelog.command.CommandHandler;
-import com.rogue.orelog.config.ConfigValues;
-import com.rogue.orelog.config.ConfigurationLoader;
-import com.rogue.orelog.listener.ListenerManager;
-import com.rogue.orelog.metrics.Metrics;
-import com.rogue.orelog.update.Choice;
-import com.rogue.orelog.update.UpdateHandler;
+import com.rogue.logore.command.CommandHandler;
+import com.rogue.logore.config.ConfigValues;
+import com.rogue.logore.config.ConfigurationLoader;
+import com.rogue.logore.listener.ListenerManager;
+import com.rogue.logore.metrics.Metrics;
+import com.rogue.logore.update.Choice;
+import com.rogue.logore.update.UpdateHandler;
 import java.io.IOException;
 import java.util.logging.Level;
 import org.bukkit.Bukkit;

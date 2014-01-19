@@ -14,27 +14,31 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.rogue.orelog.listener;
+package com.rogue.logore.listener.listeners;
+
+import com.rogue.logore.LogOre;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.block.BlockBreakEvent;
 
 /**
- * Exception thrown when a listener is attempted to be registered under the same key
+ * Monitors mined blocks
  *
  * @since 1.0.0
  * @author 1Rogue
  * @version 1.0.0
  */
-public class ListenerReregisterException extends RuntimeException {
-    
-    /**
-     * The exception constructor
-     * 
-     * @since 1.0.0
-     * @version 1.0.0
-     * 
-     * @param message The message to convey
-     */
-    public ListenerReregisterException(String message) {
-        super(message);
+public class BlockListener implements Listener {
+
+    private final LogOre plugin;
+
+    public BlockListener(LogOre plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onBlockBreak(BlockBreakEvent event) {
+
     }
 
 }
