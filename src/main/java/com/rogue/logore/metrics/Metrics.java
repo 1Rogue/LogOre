@@ -629,7 +629,7 @@ public class Metrics {
          */
         private final Set<Plotter> plotters = new LinkedHashSet<Plotter>();
 
-        Graph(final String name) {
+        private Graph(final String name) {
             this.name = name;
         }
 
